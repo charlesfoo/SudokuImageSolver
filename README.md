@@ -72,3 +72,9 @@ Sudoku Image Solver uses image processing techniques to extract Sudoku Puzzle fr
 
 #### Solve Puzzle
 ![solved_puzzle](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/7_solvedPuzzle.png)
+
+
+### Run (on console):
+`./sudokuImageSolver_console.py`
+
+![console_solver](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/8_console_solver.png)
