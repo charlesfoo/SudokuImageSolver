@@ -52,16 +52,23 @@ Sudoku Image Solver uses image processing techniques to extract Sudoku Puzzle fr
 ### Run (with Tkinter GUI):
 `./sudokuImageSolver.py`
 
+#### Home
 ![home](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/1_home.png)
 
+#### Input Image 
 ![input_image](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/2_inputImage.png)
 
+#### Preprocess Image
 ![preprocessed](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/3_preprocessed.png)
 
+#### Extract Puzzle
 ![extract_puzzle](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/4_extractPuzzle.png)
 
+#### Extract Cells
 ![extract_cells](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/5_extractCells.png)
 
+#### Parse Puzzle
 ![parsed_puzzle](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/6_parsedPuzzle.png)
 
+#### Solve Puzzle
 ![solved_puzzle](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/7_solvedPuzzle.png)
