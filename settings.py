@@ -28,7 +28,7 @@ MAXIMUM_WIDTH=900
 DIGIT_SIZE=28
 
 ############################# SETTINGS OF MODEL TRAINING FOR DIGIT RECOGNITION
-#create training set in ${sudokuDigitFolder}/unsorted
+#create training set in ${sudokuDigitFolder}/training/unsorted
 createTrainingSetForDigitRecognition=False
 
 #if createTrainingSetForDigitRecognition is true, a folder named training will be created if it doesn't exist, and the model will be trained on the digit images inside the folder
