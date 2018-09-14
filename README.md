@@ -12,13 +12,13 @@ Sudoku Image Solver uses image processing techniques to extract Sudoku Puzzle fr
 
 2. Sudoku puzzle is being located by finding the largest feature/ largest contour in the input image. 
 
-3. The perspective of the puzzle is being warped to obtain a top down view on the puzzle. 
+3. The puzzle is then being flattened (warp perspective) to obtain a top down view of the puzzle. 
 
-4. The puzzle is then being extracted and preprocessed.
+4. The flattened puzzle is being extracted and preprocessed.
 
-5. The extracted puzzle is being chopped evenly into 81 pieces for cell extraction.
+5. The extracted puzzle is being chopped evenly into 81 pieces for cells extraction.
 
-6. For each cells in the puzzle, the digit (located by finding the largest feature in the cell) is being centered and resized (28x28) to conform to the format of MNIST dataset.
+6. For each cell in the puzzle, the digit (located by finding the largest feature in the cell) is being centered and resized (28x28) to conform to the format of MNIST dataset.
 
 7. The digits are then being passed into an 8 layer Convolutional Neural Network (built using TensorFlow) for digit recognition.
 
