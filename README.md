@@ -78,3 +78,12 @@ Sudoku Image Solver uses image processing techniques to extract Sudoku Puzzle fr
 `./sudokuImageSolver_console.py`
 
 ![console_solver](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/8_console_solver.png)
+
+
+### Training Convolutional Neural Network model
+You can create digits dataset by setting `createTrainingSetForDigitRecognition` variable in `settings.py` to `True`. By doing so, whenever you input an image into the program, the images of the cells of Sudoku Puzzle extracted will be created and stored in `${sudokuDigitFolder}/training/unsorted`.
+
+To train a Convolutional Neural Network, you will need to manually label these datasets in the `unsorted` directory by dragging them to their respective folder, eg: `None`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, and `9`. 
+*Note: You might want to split some of these for test set (To do so, drag them to their respective folder in `${sudokuDigitFolder}/testing/`).*
+
+You can train the Convolutional Neural Network model by simply setting `trainConvolutionalNeuralNetwork` variable in `settings.py` to `True`.
