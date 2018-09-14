@@ -52,16 +52,16 @@ Sudoku Image Solver uses image processing techniques to extract Sudoku Puzzle fr
 ### Run (with Tkinter GUI):
 `./sudokuImageSolver.py`
 
-[!home](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/1_home.png)
+![home](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/1_home.png)
 
-[!input_image](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/2_inputImage.png)
+![input_image](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/2_inputImage.png)
 
-[!preprocessed](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/3_preprocessed.png)
+![preprocessed](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/3_preprocessed.png)
 
-[!extract_puzzle](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/4_extractPuzzle.png)
+![extract_puzzle](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/4_extractPuzzle.png)
 
-[!extract_cells](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/5_extractCells.png)
+![extract_cells](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/5_extractCells.png)
 
-[!parsed_puzzle](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/6_parsedPuzzle.png)
+![parsed_puzzle](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/6_parsedPuzzle.png)
 
-[!solved_puzzle](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/7_solvedPuzzle.png)
+![solved_puzzle](https://github.com/fzy1995/SudokuImageSolver/blob/master/renderingImage/ProgramScreenshots/7_solvedPuzzle.png)
